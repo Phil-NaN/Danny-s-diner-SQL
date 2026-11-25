@@ -30,5 +30,5 @@ I find this project interesting because, despite the small size of the dataset, 
 
 ## Project Files
 
-The [dannys_diner.md](dannys_diner.md) file contains 10 business questions and 2 bonus challenges, with queries, results, and explanations.
+The [Dannys_diner.md](Dannys_diner.md) file contains 10 business questions and 2 bonus challenges, with queries, results, and explanations.
 
