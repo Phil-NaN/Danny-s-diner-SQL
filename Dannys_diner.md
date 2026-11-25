@@ -200,11 +200,11 @@ WHERE chronos = 1
 ;
 ```
 ### Result
-|customer_id	|order_date	|product_name
-|-
-|A	|2021-01-01	|sushi
-|A	|2021-01-01	|curry
-|B	|2021-01-04	|sushi
+|customer_id	|order_date	|product_name|
+|---------------|-----------|------------|
+|A	|2021-01-01	|sushi|
+|A	|2021-01-01	|curry|
+|B	|2021-01-04	|sushi|
 ### Answer
 Just before becoming members, customer A ordered sushi and curry and customer B ordered sushi.
 
@@ -224,10 +224,10 @@ order by s.customer_id
 ;
 ```
 ### Result
-|customer_id	|total_items	|amount_spent
-|-
-|A	|2	|25
-|B	|3	|40
+|customer_id	|total_items	|amount_spent|
+|---------------|---------------|------------|
+|A	|2	|25|
+|B	|3	|40|
 ### Answer
 Before becoming a member:
 - customer A ordered 2 items and spent 25$
@@ -254,11 +254,11 @@ ORDER BY customer_id
 ;
 ```
 ### Result
-|customer_id	|total_points
-|-
-|A	|860
-|B	|940
-|C	|360
+|customer_id	|total_points|
+|-|-|
+|A	|860|
+|B	|940|
+|C	|360|
 ### Answer
 Customer A earned 860 points, Customer B 940 points and customer C 360 points.
 
@@ -291,10 +291,10 @@ ORDER BY customer_id
 ;
 ```
 ### Result
-|customer_id	|member_points_in_january
-|-
-|A	|1370
-|B	|820
+|customer_id	|member_points_in_january|
+|-|-|
+|A	|1370|
+|B	|820|
 ### Answer
 In January, customer A earned 1370 points and customer B 820 points.
 
